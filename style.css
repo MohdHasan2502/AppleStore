@@ -1,0 +1,436 @@
+@font-face {
+  font-family: "regular";
+  src: url(/sf-pro-text_regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "regular";
+}
+html,
+body,
+#main {
+  width: 100%;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  width: 100%;
+  background-size: cover;
+  height: 7vh;
+  background-color: rgb(24, 23, 23);
+}
+nav a {
+  text-decoration: none;
+  color: rgb(205, 192, 192);
+  font-size: 12px;
+  /* font-weight: 600; */
+}
+nav i {
+  font-size: 1.5vw;
+}
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 7px;
+  background-color: rgb(32, 31, 31);
+  color: white;
+  width: 100%;
+  font-weight: 600;
+  font-family: "regular";
+}
+.part-1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  gap: 1vh;
+  width: 100%;
+  height: 90vh;
+  background-image: url(/Img/iphone15pro.jpg);
+  background-position: center;
+  background-color: #000;
+}
+.text-part-1 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-image: url(/Img/_iphone15_announce__2.jpg); */
+}
+.text-part-1 h1 {
+  font-size: 4vw;
+}
+.text-part-1 p {
+  font-size: 1.9vw;
+}
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5vw;
+}
+.link a {
+  text-decoration: none;
+  color: rgb(26, 141, 242);
+  font-size: 1.5vw;
+  gap: 2vw;
+}
+.link a:hover {
+  color: rgb(26, 141, 242);
+  border-bottom: 2px solid rgb(26, 141, 242);
+  /* text-decoration: underline; */
+}
+.link i {
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  padding-top: 3vh;
+  gap: 2vw;
+  color: rgb(14, 96, 239);
+}
+.part-2 {
+  background-image: url(/Img/_iphone15_announce__2.jpg);
+}
+.text-part-2 {
+  color: black;
+  background-image: url(/Img/_iphone15_announce__2.jpg);
+}
+.watch-series {
+  background-color: rgb(0, 0, 0);
+}
+.watch-series h1 {
+  font-family: "regular", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 297%;
+  padding-left: 40vw;
+  color: #fff;
+  padding-right: 3vw;
+  font-size: 2.9vw;
+}
+.watch-series h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  position: absolute;
+  top: 304%;
+  padding-left: 44vw;
+  margin-top: 0.4vw;
+  color: #fff;
+  border: none;
+  font-size: 2vw;
+}
+.watch-series h2 {
+  position: absolute;
+  top: 304%;
+  padding-left: 28vw;
+  margin-top: 3vw;
+  color: #fff;
+  font-size: 1.8vw;
+}
+.btn-1 {
+  position: absolute;
+  top: 317%;
+  margin-left: 40vw;
+  gap: 1vw;
+  margin-top: 0.5vw;
+  justify-content: space-between;
+  border-radius: 8vw;
+  font-size: 1.2vw;
+  padding: 0.7vw 1.5vw;
+  outline: none;
+}
+.btn-2 {
+  position: absolute;
+  top: 317%;
+  margin-left: 51vw;
+  gap: 1vw;
+  margin-top: 0.5vw;
+  justify-content: space-between;
+  border-radius: 6vw;
+  font-size: 1.2vw;
+  padding: 0.7vw 1.8vw;
+}
+
+.back-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  width: 100%;
+  height: 160vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.watch-part-start {
+  /* border: 1px solid red; */
+  width: 50%;
+  /* position: abolute; */
+}
+.watch-part-start h1 {
+  font-size: 3vw;
+  padding-left: 18vw;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  margin-top: 1vw;
+}
+.watch-part-start p {
+  font-size: 1.5vw;
+  color: rgb(246, 124, 2);
+  padding-left: 21vw;
+  font-weight: 400;
+  margin-top: 0.3vw;
+}
+.watch-part-start h2 {
+  font-size: 1.5vw;
+  color: rgb(0, 0, 0);
+  padding-left: 16vw;
+  font-weight: 400;
+  margin-top: 0.3vw;
+}
+.links1 {
+  text-decoration: none;
+  color: rgb(14, 96, 239);
+  font-size: 1.2vw;
+  padding-left: 15vw;
+  font-weight: 200;
+  margin-top: 0.8vw;
+}
+.links2 {
+  text-decoration: none;
+  color: rgb(14, 96, 239);
+  font-size: 1.2vw;
+  padding-left: 3vw;
+  font-weight: 200;
+  margin-top: 0.8vw;
+}
+.img-2 {
+  object-fit: cover;
+  margin-left: 15%;
+}
+.macbook-part {
+  /* border: 1px solid red; */
+  width: 49.5%;
+  float: right;
+  position: abolute;
+  margin-top: -45vw;
+}
+.macbook-part h1 {
+  font-size: 3vw;
+  padding-left: 18vw;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  margin-top: 2.5vw;
+}
+.macbook-part h2 {
+  font-size: 1.4vw;
+  color: rgb(0, 0, 0);
+  padding-left: 17vw;
+  font-weight: 400;
+  margin-top: 0.8vw;
+}
+.link1 {
+  text-decoration: none;
+  color: rgb(14, 96, 239);
+  font-size: 1.2vw;
+  padding-left: 19vw;
+  font-weight: 200;
+  margin-top: 0.8vw;
+}
+.link2 {
+  text-decoration: none;
+  color: rgb(14, 96, 239);
+  font-size: 1.2vw;
+  padding-left: 3vw;
+  font-weight: 200;
+  margin-top: 0.8vw;
+}
+.macbook-part img {
+  object-fit: cover;
+  margin-left: -35%;
+}
+.ipad-part {
+  /* border: 1px solid red; */
+  width: 50%;
+}
+.ipad-part h1 {
+  font-size: 3vw;
+  padding-left: 18vw;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  margin-top: 1vw;
+}
+.ipad-part h2 {
+  font-size: 1.4vw;
+  color: rgb(0, 0, 0);
+  padding-left: 13.5vw;
+  font-weight: 400;
+  margin-top: 0.8vw;
+}
+.link1-1 {
+  text-decoration: none;
+  color: rgb(14, 96, 239);
+  font-size: 1.2vw;
+  padding-left: 15vw;
+  font-weight: 200;
+  margin-top: 0.8vw;
+}
+.link2-2 {
+  text-decoration: none;
+  color: rgb(14, 96, 239);
+  font-size: 1.2vw;
+  padding-left: 3vw;
+  font-weight: 200;
+  margin-top: 0.8vw;
+}
+.img-ipad {
+  object-fit: cover;
+  padding-left: 8vw;
+}
+.airpod-part {
+  /* border: 1px solid red; */
+  width: 49.5%;
+  float: right;
+  height: 98vh;
+  background-color: black;
+  margin-top: -42vw;
+}
+.airpod-part h1 {
+  color: white;
+  font-size: 3vw;
+  padding-left: 18vw;
+  /* color: rgb(0, 0, 0); */
+  font-weight: 900;
+  margin-top: 2vw;
+}
+.airpod-part h2 {
+  font-size: 1.4vw;
+  color: white;
+  padding-left: 17vw;
+  font-weight: 400;
+  margin-top: 0.8vw;
+}
+.link1-2 {
+  text-decoration: none;
+  color: rgb(14, 96, 239);
+  font-size: 1.2vw;
+  padding-left: 18vw;
+  font-weight: 200;
+  margin-top: 0.8vw;
+}
+.link2-3 {
+  text-decoration: none;
+  color: rgb(14, 96, 239);
+  font-size: 1.2vw;
+  padding-left: 3vw;
+  font-weight: 200;
+  margin-top: 0.8vw;
+}
+.airpod-img {
+  object-fit: scale-down;
+  width: 100%;
+  height: 60%;
+  /* object-fit: fill; */
+  margin-left: 5%;
+}
+.homepad-part {
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 98vh;
+  margin-top: 2.5vw;
+}
+.homepad-part h1 {
+  font-size: 3vw;
+  padding-left: 15vw;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  margin-top: 2vw;
+}
+.link1-2-1 {
+  text-decoration: none;
+  color: rgb(14, 96, 239);
+  font-size: 1.2vw;
+  padding-left: 17vw;
+  font-weight: 200;
+  margin-top: 0.8vw;
+}
+.link2-3-1 {
+  text-decoration: none;
+  color: rgb(14, 96, 239);
+  font-size: 1.2vw;
+  padding-left: 3vw;
+  font-weight: 200;
+  margin-top: 0.8vw;
+}
+.homepad-part img {
+  object-fit: scale-down;
+  width: 80%;
+  height: 60%;
+  object-fit: cover;
+  margin-left: 15%;
+}
+.trade-part {
+  /* background-color: rgb(205, 192, 192); */
+  width: 49.5%;
+  float: right;
+  height: 98vh;
+  margin-top: -42vw;
+}
+.trade-part h1 {
+  font-size: 3vw;
+  padding-left: 18vw;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  /* margin-top: 1vw; */
+}
+.trade-part h2 {
+  font-size: 2vw;
+  color: rgb(0, 0, 0);
+  padding-left: 17vw;
+  font-weight: 400;
+  margin-top: 0.8vw;
+}
+.link-3 {
+  text-decoration: none;
+  color: rgb(14, 96, 239);
+  font-size: 1.2vw;
+  padding-left: 20vw;
+  font-weight: 200;
+  margin-top: 7vw;
+}
+.img-iphon11 {
+  object-fit: cover;
+  width: 100%;
+  height: 70%;
+  margin-top: 2vw;
+  /* margin-left: 1%; */
+}
+.footer {
+  background-color: rgb(245, 245, 247);
+  width: 100%;
+  height: 40vh;
+  margin-top: 10vw;
+}
+.footer p {
+  font-size: 12px;
+  line-height: 1.3333733333;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  position: relative;
+  z-index: 1;
+  width: 70%;
+  color: rgb(0, 0, 0);
+  padding-left: 15vw;
+  margin-top: 1vw;
+}
